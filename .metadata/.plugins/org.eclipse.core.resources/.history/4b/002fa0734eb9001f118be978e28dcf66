@@ -1,0 +1,15 @@
+package com.nk;
+
+
+public class MovieTicketBooking {
+
+	public static void main(String[] args) {
+		System.out.println("***Welcome to Online Movie Ticket Booking System***");
+		System.out.println("1.View Movie ");
+		System.out.println("2.Book Ticket");
+		System.out.println("3.Exit!");
+		
+	}
+	
+	
+}

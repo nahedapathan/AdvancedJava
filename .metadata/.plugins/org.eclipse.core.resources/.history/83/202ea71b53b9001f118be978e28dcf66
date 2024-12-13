@@ -1,0 +1,39 @@
+package com.nk.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.nk.model.Movie;
+
+public class BookingDao {
+
+	private static final String DB_URL="jdbc:mysql://localhost:3306/batch191";
+	private static final String USER="root";
+	private static final String PASSWORD="tiger123";
+	
+	private List<Movie> movies=new ArrayList<>();
+	
+	static{
+		try
+		{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		}catch(ClassNotFoundException e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	public void addMovie(Movie movie) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Movie> getMovies() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

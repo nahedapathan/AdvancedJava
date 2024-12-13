@@ -1,0 +1,22 @@
+package com.nk.service;
+
+import java.util.List;
+
+import com.nk.dao.BookingDao;
+import com.nk.model.Movie;
+
+public class BookingService {
+
+	 private BookingDao dao=new BookingDao();
+	 
+	public void addMovie(Movie movie) {
+		dao.addMovie(movie);
+		
+	}
+
+	public List<Movie> getMovie() {
+		
+		return dao.getMovies();
+	}
+
+}

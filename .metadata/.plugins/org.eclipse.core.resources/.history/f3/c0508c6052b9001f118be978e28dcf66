@@ -1,0 +1,20 @@
+package com.nk.dao;
+
+import java.util.List;
+
+import com.nk.model.Movie;
+
+public class BookingDao {
+
+	public void addMovie(Movie movie) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Movie> getMovies() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

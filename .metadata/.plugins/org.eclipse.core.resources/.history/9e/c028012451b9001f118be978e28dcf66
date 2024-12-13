@@ -1,0 +1,20 @@
+package com.nk.controller;
+
+public class BookingController {
+
+	public void addMovie() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void viewMovies() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void bookTicket() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.nk.service;
+
+import com.nk.model.Movie;
+
+public class BookingService {
+
+	public void addMovie(Movie movie) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
